@@ -1,0 +1,3 @@
+$(RECORD).DESC   86400    monitor
+$(RECORD)        86400    monitor
+
