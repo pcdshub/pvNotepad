@@ -9,7 +9,7 @@ endif
 
 include $(TOP)/configure/CONFIG
 ifndef ARCH
-ARCH = $$IF(ARCH,$$ARCH,linux-x86_64)
+ARCH = linux-x86_64
 endif
 
 INSTALL_LOCATION = ../..
@@ -25,4 +25,5 @@ REQ += $$IOCNAME.req
 
 include $(TOP)/configure/RULES.ioc
 -include $(TOP)/configure/RULES.archive
+-include $(TOP)/configure/RULES.autosave
 -include $(TOP)/configure/RULES.copy

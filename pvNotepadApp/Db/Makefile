@@ -22,13 +22,13 @@ DB += pvNotepad.db
 
 ARCHIVE_INSTALLS += pvNotepad-addons.archive
 
-#ARCHIVE += pvNotepad.archive
+ARCHIVE += archive_record.tpl-arch
 
 #----------------------------------------------------
 # Create and install (or just install)
 # Autosave request files, templates, substitutions like this
 
-#REQ += pvNotepad.req
+REQ += autosave_record.tpl-req
 
 include $(TOP)/configure/RULES
 #----------------------------------------

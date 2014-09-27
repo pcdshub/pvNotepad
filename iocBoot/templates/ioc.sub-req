@@ -1,4 +1,4 @@
-file autosave_record.template
+file autosave_record.tpl-req
 {
     pattern { RECORD                    }
             { $$HUTCH:NOTE:EXAMPLE   }

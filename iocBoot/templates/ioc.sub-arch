@@ -1,4 +1,4 @@
-file archive_record.template
+file archive_record.tpl-arch
 {
     pattern { RECORD                    }
             { $$HUTCH:NOTE:EXAMPLE   }
