@@ -28,7 +28,7 @@ ARCHIVE += archive_record.tpl-arch
 # Create and install (or just install)
 # Autosave request files, templates, substitutions like this
 
-REQ += autosave_record.template
+REQ += autosave_record.tpl-req
 
 include $(TOP)/configure/RULES
 #----------------------------------------

@@ -2,7 +2,7 @@
 # Author: Jason Tiller
 
 TOP = ../..
--include $(TOP)/IOC_APPL_TOP
+-include ./IOC_APPL_TOP
 ifneq (,$(IOC_APPL_TOP))
 TOP = $(IOC_APPL_TOP)
 endif
@@ -25,4 +25,5 @@ REQ += $$IOCNAME.req
 
 include $(TOP)/configure/RULES.ioc
 -include $(TOP)/configure/RULES.archive
+-include $(TOP)/configure/RULES.autosave
 -include $(TOP)/configure/RULES.copy
