@@ -2,14 +2,14 @@
 # Author: Jason Tiller
 
 TOP = ../..
--include ./IOC_APPL_TOP
+-include $(TOP)/IOC_APPL_TOP
 ifneq (,$(IOC_APPL_TOP))
 TOP = $(IOC_APPL_TOP)
 endif
 
 include $(TOP)/configure/CONFIG
 ifndef ARCH
-ARCH = $$IF(ARCH,$$ARCH,linux-x86_64)
+ARCH = linux-x86_64
 endif
 
 INSTALL_LOCATION = ../..
