@@ -1,1 +1,1 @@
-record(ao,      "$$HUTCH:NOTE:EXAMPLE"         ) { }
+#record(ao,      "$$HUTCH:NOTE:EXAMPLE"         ) { }

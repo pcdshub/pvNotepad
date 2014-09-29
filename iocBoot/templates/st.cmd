@@ -1,4 +1,4 @@
-#!../../bin/linux-x86_64/pvNotepad
+#!$$IOCTOP/bin/linux-x86_64/pvNotepad
 
 epicsEnvSet( "EPICS_NAME", "$$TRANSLATE(IOCNAME,"a-z_-","A-Z::")" )
 epicsEnvSet( "ENGINEER",  "$$ENGINEER" )
@@ -18,7 +18,7 @@ pvNotepad_registerRecordDeviceDriver(pdbbase)
 dbLoadRecords("$(TOP)/db/iocSoft.db",            "IOC=$(EPICS_NAME)" )
 dbLoadRecords("$(TOP)/db/save_restoreStatus.db", "IOC=$(EPICS_NAME)" )
 
-dbLoadRecords("$(TOP)/db/specials.db",           "HUTCH=$$HUTCH")
+#dbLoadRecords("$(TOP)/db/specials.db",           "HUTCH=$$HUTCH")
 dbLoadRecords("$(TOP)/db/pvNotepad.db",          "HUTCH=$$HUTCH")
 
 # Setup autosave
