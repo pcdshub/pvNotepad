@@ -1,0 +1,15 @@
+#Substitution file for 10 records
+file waveform.template
+{
+    pattern { RECORD           }
+            { $(HUTCH):NOTE:ARRAY:01 }
+            { $(HUTCH):NOTE:ARRAY:02 }
+            { $(HUTCH):NOTE:ARRAY:03 }
+            { $(HUTCH):NOTE:ARRAY:04 }
+            { $(HUTCH):NOTE:ARRAY:05 }
+            { $(HUTCH):NOTE:ARRAY:06 }
+            { $(HUTCH):NOTE:ARRAY:07 }
+            { $(HUTCH):NOTE:ARRAY:08 }
+            { $(HUTCH):NOTE:ARRAY:09 }
+            { $(HUTCH):NOTE:ARRAY:10 }
+}

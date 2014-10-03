@@ -1,1 +1,2 @@
 #record(ao,      "$$HUTCH:NOTE:EXAMPLE"         ) { }
+record($(RECTYPE),	"$(PV)") {}

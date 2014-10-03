@@ -1,0 +1,6 @@
+#Substitution file for single record
+file waveform.template
+{
+    pattern { RECORD           }
+            { $(HUTCH):NOTE:ARRAY:01 }
+}
