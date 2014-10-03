@@ -1,7 +1,29 @@
+$$IF(DOUBLE_1)
 file archive_record.tpl-arch
 {
-    pattern { RECORD                    }
-            { $$HUTCH:NOTE:EXAMPLE   }
+    pattern { RECORD                 }
+            { $$HUTCH:NOTE:DOUBLE:01 }
+}
+$$ENDIF(DOUBLE_1)
+$$IF(DOUBLE_10)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }  
+            { $$HUTCH:NOTE:DOUBLE:01 }
+            { $$HUTCH:NOTE:DOUBLE:02 }
+            { $$HUTCH:NOTE:DOUBLE:03 }
+            { $$HUTCH:NOTE:DOUBLE:04 }
+            { $$HUTCH:NOTE:DOUBLE:05 }
+            { $$HUTCH:NOTE:DOUBLE:06 }
+            { $$HUTCH:NOTE:DOUBLE:07 }
+            { $$HUTCH:NOTE:DOUBLE:08 }
+            { $$HUTCH:NOTE:DOUBLE:09 }
+            { $$HUTCH:NOTE:DOUBLE:10 }
+$$ENDIF(DOUBLE_10)
+$$IF(DOUBLE_20)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
             { $$HUTCH:NOTE:DOUBLE:01 }
             { $$HUTCH:NOTE:DOUBLE:02 }
             { $$HUTCH:NOTE:DOUBLE:03 }
@@ -22,57 +44,35 @@ file archive_record.tpl-arch
             { $$HUTCH:NOTE:DOUBLE:18 }
             { $$HUTCH:NOTE:DOUBLE:19 }
             { $$HUTCH:NOTE:DOUBLE:20 }
-            { $$HUTCH:NOTE:DOUBLE:21 }
-            { $$HUTCH:NOTE:DOUBLE:22 }
-            { $$HUTCH:NOTE:DOUBLE:23 }
-            { $$HUTCH:NOTE:DOUBLE:24 }
-            { $$HUTCH:NOTE:DOUBLE:25 }
-            { $$HUTCH:NOTE:DOUBLE:26 }
-            { $$HUTCH:NOTE:DOUBLE:27 }
-            { $$HUTCH:NOTE:DOUBLE:28 }
-            { $$HUTCH:NOTE:DOUBLE:29 }
-            { $$HUTCH:NOTE:DOUBLE:30 }
-            { $$HUTCH:NOTE:DOUBLE:31 }
-            { $$HUTCH:NOTE:DOUBLE:32 }
-            { $$HUTCH:NOTE:DOUBLE:33 }
-            { $$HUTCH:NOTE:DOUBLE:34 }
-            { $$HUTCH:NOTE:DOUBLE:35 }
-            { $$HUTCH:NOTE:DOUBLE:36 }
-            { $$HUTCH:NOTE:DOUBLE:37 }
-            { $$HUTCH:NOTE:DOUBLE:38 }
-            { $$HUTCH:NOTE:DOUBLE:39 }
-            { $$HUTCH:NOTE:DOUBLE:40 }
-            { $$HUTCH:NOTE:DOUBLE:41 }
-            { $$HUTCH:NOTE:DOUBLE:42 }
-            { $$HUTCH:NOTE:DOUBLE:43 }
-            { $$HUTCH:NOTE:DOUBLE:44 }
-            { $$HUTCH:NOTE:DOUBLE:45 }
-            { $$HUTCH:NOTE:DOUBLE:46 }
-            { $$HUTCH:NOTE:DOUBLE:47 }
-            { $$HUTCH:NOTE:DOUBLE:48 }
-            { $$HUTCH:NOTE:DOUBLE:49 }
-            { $$HUTCH:NOTE:DOUBLE:50 }
-            { $$HUTCH:NOTE:DOUBLE:51 }
-            { $$HUTCH:NOTE:DOUBLE:52 }
-            { $$HUTCH:NOTE:DOUBLE:53 }
-            { $$HUTCH:NOTE:DOUBLE:54 }
-            { $$HUTCH:NOTE:DOUBLE:55 }
-            { $$HUTCH:NOTE:DOUBLE:56 }
-            { $$HUTCH:NOTE:DOUBLE:57 }
-            { $$HUTCH:NOTE:DOUBLE:58 }
-            { $$HUTCH:NOTE:DOUBLE:59 }
-            { $$HUTCH:NOTE:DOUBLE:60 }
-	    { $$HUTCH:NOTE:DOUBLE:61 }	
-            { $$HUTCH:NOTE:DOUBLE:62 }
-            { $$HUTCH:NOTE:DOUBLE:63 }
-            { $$HUTCH:NOTE:DOUBLE:64 }
-            { $$HUTCH:NOTE:DOUBLE:65 }
-            { $$HUTCH:NOTE:DOUBLE:66 }
-            { $$HUTCH:NOTE:DOUBLE:67 }
-            { $$HUTCH:NOTE:DOUBLE:68 }
-            { $$HUTCH:NOTE:DOUBLE:69 }
-            { $$HUTCH:NOTE:DOUBLE:70 }
-
+}
+$$ENDIF(DOUBLE_20)
+$$IF(LONGOUT_1)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$HUTCH:NOTE:LONG:01   }
+}
+$$ENDIF(LONGOUT_1)
+$$IF(LONGOUT_10)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$HUTCH:NOTE:LONG:01   }
+            { $$HUTCH:NOTE:LONG:02   }
+            { $$HUTCH:NOTE:LONG:03   }
+            { $$HUTCH:NOTE:LONG:04   }
+            { $$HUTCH:NOTE:LONG:05   }
+            { $$HUTCH:NOTE:LONG:06   }
+            { $$HUTCH:NOTE:LONG:07   }
+            { $$HUTCH:NOTE:LONG:08   }
+            { $$HUTCH:NOTE:LONG:09   }
+            { $$HUTCH:NOTE:LONG:10   }
+}
+$$ENDIF(LONGOUT_10)
+$$IF(LONGOUT_20)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
             { $$HUTCH:NOTE:LONG:01   }
             { $$HUTCH:NOTE:LONG:02   }
             { $$HUTCH:NOTE:LONG:03   }
@@ -93,27 +93,35 @@ file archive_record.tpl-arch
             { $$HUTCH:NOTE:LONG:18   }
             { $$HUTCH:NOTE:LONG:19   }
             { $$HUTCH:NOTE:LONG:20   }
-            { $$HUTCH:NOTE:LONG:21   }
-            { $$HUTCH:NOTE:LONG:22   }
-            { $$HUTCH:NOTE:LONG:23   }
-            { $$HUTCH:NOTE:LONG:24   }
-            { $$HUTCH:NOTE:LONG:25   }
-            { $$HUTCH:NOTE:LONG:26   }
-            { $$HUTCH:NOTE:LONG:27   }
-            { $$HUTCH:NOTE:LONG:28   }
-            { $$HUTCH:NOTE:LONG:29   }
-            { $$HUTCH:NOTE:LONG:30   }
-            { $$HUTCH:NOTE:LONG:31   }
-            { $$HUTCH:NOTE:LONG:32   }
-            { $$HUTCH:NOTE:LONG:33   }
-            { $$HUTCH:NOTE:LONG:34   }
-            { $$HUTCH:NOTE:LONG:35   }
-            { $$HUTCH:NOTE:LONG:36   }
-            { $$HUTCH:NOTE:LONG:37   }
-            { $$HUTCH:NOTE:LONG:38   }
-            { $$HUTCH:NOTE:LONG:39   }
-            { $$HUTCH:NOTE:LONG:40   }
-
+}
+$$ENDIF(LONGOUT_20)
+$$LOOP(ARRAY_1)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$HUTCH:NOTE:ARRAY:01 }
+}
+$$ENDLOOP(ARRAY_1)
+$$LOOP(ARRAY_10)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$HUTCH:NOTE:ARRAY:01 }
+            { $$HUTCH:NOTE:ARRAY:02 }
+            { $$HUTCH:NOTE:ARRAY:03 }
+            { $$HUTCH:NOTE:ARRAY:04 }
+            { $$HUTCH:NOTE:ARRAY:05 }
+            { $$HUTCH:NOTE:ARRAY:06 }
+            { $$HUTCH:NOTE:ARRAY:07 }
+            { $$HUTCH:NOTE:ARRAY:08 }
+            { $$HUTCH:NOTE:ARRAY:09 }
+            { $$HUTCH:NOTE:ARRAY:10 }
+}
+$$ENDLOOP(ARRAY_10)
+$$LOOP(ARRAY_20)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
             { $$HUTCH:NOTE:ARRAY:01 }
             { $$HUTCH:NOTE:ARRAY:02 }
             { $$HUTCH:NOTE:ARRAY:03 }
@@ -135,3 +143,11 @@ file archive_record.tpl-arch
             { $$HUTCH:NOTE:ARRAY:19 }
             { $$HUTCH:NOTE:ARRAY:20 }
 }
+$$ENDLOOP(ARRAY_20)
+$$LOOP(SPECIAL)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$PV    }
+}
+$$ENDLOOP(SPECIAL)

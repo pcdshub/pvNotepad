@@ -1,0 +1,25 @@
+#Substitutions for 20 records 
+file ao.template
+{
+    pattern  { RECORD             }
+             { $(HUTCH):NOTE:DOUBLE:01 }
+             { $(HUTCH):NOTE:DOUBLE:02 }
+             { $(HUTCH):NOTE:DOUBLE:03 }
+             { $(HUTCH):NOTE:DOUBLE:04 }
+             { $(HUTCH):NOTE:DOUBLE:05 }
+             { $(HUTCH):NOTE:DOUBLE:06 }
+             { $(HUTCH):NOTE:DOUBLE:07 }
+             { $(HUTCH):NOTE:DOUBLE:08 }
+             { $(HUTCH):NOTE:DOUBLE:09 }
+             { $(HUTCH):NOTE:DOUBLE:10 }
+             { $(HUTCH):NOTE:DOUBLE:11 }
+             { $(HUTCH):NOTE:DOUBLE:12 }
+             { $(HUTCH):NOTE:DOUBLE:13 }
+             { $(HUTCH):NOTE:DOUBLE:14 }
+             { $(HUTCH):NOTE:DOUBLE:15 }
+             { $(HUTCH):NOTE:DOUBLE:16 }
+             { $(HUTCH):NOTE:DOUBLE:17 }
+             { $(HUTCH):NOTE:DOUBLE:18 }
+             { $(HUTCH):NOTE:DOUBLE:19 }
+             { $(HUTCH):NOTE:DOUBLE:20 }
+}

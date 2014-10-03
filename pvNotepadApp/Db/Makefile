@@ -12,10 +12,19 @@ include $(TOP)/configure/CONFIG
 # databases, templates, substitutions like this
 DB_INSTALLS += $(IOCADMIN)/db/iocSoft.db
 DB_INSTALLS += $(AUTOSAVE)/db/save_restoreStatus.db
-DB_INSTALLS += specials.db
+#DB_INSTALLS += specials.db
 
-DB += pvNotepad.db
-
+#DB += pvNotepad.db
+DB += ao_1.db
+DB += ao_10.db
+DB += ao_20.db
+DB += longout_1.db
+DB += longout_10.db
+DB += longout_20.db
+DB += array_1.db
+DB += array_10.db
+DB += array_20.db
+DB += specials.db
 #----------------------------------------------------
 # Create and install (or just install)
 # Archive files, templates, substitutions like this

@@ -1,0 +1,25 @@
+#Substitution file for 20 records
+file longout.template
+{
+    pattern { RECORD           }
+            { $(HUTCH):NOTE:LONG:01 }
+            { $(HUTCH):NOTE:LONG:02 }
+            { $(HUTCH):NOTE:LONG:03 }
+            { $(HUTCH):NOTE:LONG:04 }
+            { $(HUTCH):NOTE:LONG:05 }
+            { $(HUTCH):NOTE:LONG:06 }
+            { $(HUTCH):NOTE:LONG:07 }
+            { $(HUTCH):NOTE:LONG:08 }
+            { $(HUTCH):NOTE:LONG:09 }
+            { $(HUTCH):NOTE:LONG:10 }
+            { $(HUTCH):NOTE:LONG:11 }
+            { $(HUTCH):NOTE:LONG:12 }
+            { $(HUTCH):NOTE:LONG:13 }
+            { $(HUTCH):NOTE:LONG:14 }
+            { $(HUTCH):NOTE:LONG:15 }
+            { $(HUTCH):NOTE:LONG:16 }
+            { $(HUTCH):NOTE:LONG:17 }
+            { $(HUTCH):NOTE:LONG:18 }
+            { $(HUTCH):NOTE:LONG:19 }
+            { $(HUTCH):NOTE:LONG:20 }
+}
