@@ -1,2 +1,4 @@
 #record(ao,      "$$HUTCH:NOTE:EXAMPLE"         ) { }
-record($(RECTYPE),	"$(PV)") {}
+record($(RECTYPE),	"$(PV)") {
+	field(NELM,	"$(NELM)")
+}

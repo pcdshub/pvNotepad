@@ -1,25 +1,26 @@
 #Substitution file for 20 records
 file waveform.template
 {
-    pattern { RECORD           }
-            { $(HUTCH):NOTE:ARRAY:01 }
-            { $(HUTCH):NOTE:ARRAY:02 }
-            { $(HUTCH):NOTE:ARRAY:03 }
-            { $(HUTCH):NOTE:ARRAY:04 }
-            { $(HUTCH):NOTE:ARRAY:05 }
-            { $(HUTCH):NOTE:ARRAY:06 }
-            { $(HUTCH):NOTE:ARRAY:07 }
-            { $(HUTCH):NOTE:ARRAY:08 }
-            { $(HUTCH):NOTE:ARRAY:09 }
-            { $(HUTCH):NOTE:ARRAY:10 }
-            { $(HUTCH):NOTE:ARRAY:11 }
-            { $(HUTCH):NOTE:ARRAY:12 }
-            { $(HUTCH):NOTE:ARRAY:13 }
-            { $(HUTCH):NOTE:ARRAY:14 }
-            { $(HUTCH):NOTE:ARRAY:15 }
-            { $(HUTCH):NOTE:ARRAY:16 }
-            { $(HUTCH):NOTE:ARRAY:17 }
-            { $(HUTCH):NOTE:ARRAY:18 }
-            { $(HUTCH):NOTE:ARRAY:19 }
-            { $(HUTCH):NOTE:ARRAY:20 }
+
+    pattern { RECORD                , NELM }
+            { $(HUTCH):NOTE:ARRAY:01,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:02,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:03,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:04,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:05,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:06,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:07,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:08,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:09,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:10,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:11,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:12,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:13,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:14,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:15,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:16,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:17,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:18,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:19,$(NELM) }
+            { $(HUTCH):NOTE:ARRAY:20,$(NELM) }
 } 

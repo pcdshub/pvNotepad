@@ -1,0 +1,5 @@
+Notepad app/IOC for hutches.  Author = Scott Stubbs (sstubbs)  Date = 10/3/2014
+
+Customizable, can choose between 1, 10, or 20 of AO, Long, or waveform (array) standard named records and can choose element size of array records.
+NOTE: Defaults to array size of 500 elements if not specified.
+Can also create custom record names with the choices of the above record types, but must be created on individual lines in the cfg file.

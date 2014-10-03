@@ -95,14 +95,14 @@ file archive_record.tpl-arch
             { $$HUTCH:NOTE:LONG:20   }
 }
 $$ENDIF(LONGOUT_20)
-$$IF(ARRAY_1)
+$$LOOP(ARRAY_1)
 file archive_record.tpl-arch
 {
     pattern { RECORD                 }
             { $$HUTCH:NOTE:ARRAY:01 }
 }
-$$ENDIF(ARRAY_1)
-$$IF(ARRAY_10)
+$$ENDLOOP(ARRAY_1)
+$$LOOP(ARRAY_10)
 file archive_record.tpl-arch
 {
     pattern { RECORD                 }
@@ -117,8 +117,8 @@ file archive_record.tpl-arch
             { $$HUTCH:NOTE:ARRAY:09 }
             { $$HUTCH:NOTE:ARRAY:10 }
 }
-$$ENDIF(ARRAY_10)
-$$IF(ARRAY_20)
+$$ENDLOOP(ARRAY_10)
+$$LOOP(ARRAY_20)
 file archive_record.tpl-arch
 {
     pattern { RECORD                 }
@@ -143,7 +143,7 @@ file archive_record.tpl-arch
             { $$HUTCH:NOTE:ARRAY:19 }
             { $$HUTCH:NOTE:ARRAY:20 }
 }
-$$ENDIF(ARRAY_20)
+$$ENDLOOP(ARRAY_20)
 $$LOOP(SPECIAL)
 file archive_record.tpl-arch
 {

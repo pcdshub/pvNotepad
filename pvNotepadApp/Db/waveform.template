@@ -1,6 +1,6 @@
 record(waveform, "$(RECORD)") {
   field(INP, "")
-  field(NELM, "500")
+  field(NELM, "$(NELM)")
   field(FTVL, "DOUBLE")
  }
 
