@@ -48,7 +48,7 @@ dbLoadRecords("$(TOP)/db/array_20.db",    "HUTCH=$$HUTCH,$$IF(NELM,NELM=$$NELM,N
 $$ENDLOOP(ARRAY_20)
 
 $$LOOP(SPECIAL)
-dbLoadRecords("$(TOP)/db/specials.db",           "PV=$$PV,RECTYPE=$$RECTYPE,$$IF(NELM,NELM=$$NELM,NELM=500)") #default to 500 elements
+dbLoadRecords("$(TOP)/db/specials.db",           "PV=$$PV,RECTYPE=$$RECTYPE,$$IF(NELM,NELM=$$NELM,NELM=500)")
 $$ENDLOOP(SPECIAL)
 # Setup autosave
 save_restoreSet_status_prefix("$(EPICS_NAME):" )
