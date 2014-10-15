@@ -1,2 +1,4 @@
-record(longout, "$(RECORD)") { }
+record(longout, "$(RECORD)") {
+  field(DESC, "$(DESC)")
+}
 

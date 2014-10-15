@@ -1,4 +1,5 @@
 record($(RECTYPE),	"$(PV)") {
 	field(NELM,	"$(NELM)")
 	field(FTVL,	"$(FTYPE)")
+	field(DESC,	"Description")
 }

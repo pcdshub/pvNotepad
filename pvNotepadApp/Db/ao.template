@@ -1,2 +1,4 @@
-record(ao, "$(RECORD)") { }
+record(ao, "$(RECORD)") {
+  field(DESC, "$(DESC)")
+}
 

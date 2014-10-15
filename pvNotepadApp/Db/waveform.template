@@ -2,5 +2,6 @@ record(waveform, "$(RECORD)") {
   field(INP, "")
   field(NELM, "$(NELM)")
   field(FTVL, "$(FTYPE)")
+  field(DESC, "$(DESC)")
  }
 
