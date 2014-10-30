@@ -1,8 +1,8 @@
-Notepad app/IOC for hutches.  Author = Scott Stubbs (sstubbs)  Date = 10/8/2014
+Notepad app/IOC for hutches.  Author = Scott Stubbs (sstubbs)  Date = 10/29/2014
 
-Customizable, can choose between 1, 10, or 20 of AO, Long, or waveform (array) standard named records and can choose element size of array records.
-For standard waveform records element number and field type default to 500 and DOUBLE if not specified.
+Customizable, can choose between 1, 10, or 20 of ao (double), long, or waveform (array) standard named records and can choose element size of array records. (Also binary + stringin customs - see below)
+For standard waveform records element number and field type can be specified, or will default to 500 and DOUBLE.
 
-Can also create custom record names with the choices of the above record types, but must be created on individual lines in the cfg file.
+Can also create custom record names with the choices of the above record types as well as bi (binary) or stringin, but must be created on individual lines in the cfg file.
 NOTE: For custom waveform records array size and field type *MUST* be specified.  For example:
 SPECIAL(PV=AMO:CB:TEST,RECTYPE=waveform,NELM=600,FTYPE=DOUBLE)

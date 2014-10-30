@@ -1,0 +1,3 @@
+record(stringin, $(RECORD) {
+  field(DESC, "$(DESC)")
+}

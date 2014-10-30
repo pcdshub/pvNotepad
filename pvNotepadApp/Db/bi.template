@@ -1,0 +1,4 @@
+record(bi, "$(RECORD)") {
+  field(ZNAM, "False")
+  field(ONAM, "True")
+}

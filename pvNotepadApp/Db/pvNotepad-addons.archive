@@ -1,5 +1,0 @@
-# Example: to archive "RECORD.FILD" every "period" seconds or
-#          whenever its value changes (-- monitor)
-#          The ".FILD" part can be skipped if it is the "VAL" field
-# "RECORD.FILD"    "period"    monitor
-

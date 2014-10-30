@@ -12,7 +12,6 @@ include $(TOP)/configure/CONFIG
 # databases, templates, substitutions like this
 DB_INSTALLS += $(IOCADMIN)/db/iocSoft.db
 DB_INSTALLS += $(AUTOSAVE)/db/save_restoreStatus.db
-#DB_INSTALLS += specials.db
 
 #DB += pvNotepad.db
 DB += ao_1.db
@@ -29,7 +28,7 @@ DB += specials.db
 # Create and install (or just install)
 # Archive files, templates, substitutions like this
 
-ARCHIVE_INSTALLS += pvNotepad-addons.archive
+#ARCHIVE_INSTALLS += pvNotepad-addons.archive
 
 ARCHIVE += archive_record.tpl-arch
 
