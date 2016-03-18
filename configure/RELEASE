@@ -12,8 +12,8 @@ EPICS_BASE=$(EPICS_SITE_TOP)/base/$(BASE_MODULE_VERSION)
 # Define the version of modules needed by
 # IOC apps or other Support apps
 # ===============================================================
-IOCADMIN_MODULE_VERSION=R3.0.0-2.0.1
-AUTOSAVE_MODULE_VERSION=R5.1-0.2.0
+IOCADMIN_MODULE_VERSION=R3.0.0-2.0.2
+AUTOSAVE_MODULE_VERSION=R5.1-0.4.0
 
 # ============================================================
 # External Support module path definitions
