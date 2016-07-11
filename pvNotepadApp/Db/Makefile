@@ -24,6 +24,7 @@ DB += array_1.db
 DB += array_10.db
 DB += array_20.db
 DB += specials.db
+DB += hutch.db
 #----------------------------------------------------
 # Create and install (or just install)
 # Archive files, templates, substitutions like this

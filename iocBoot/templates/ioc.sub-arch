@@ -151,3 +151,10 @@ file archive_record.tpl-arch
             { $$PV    }
 }
 $$ENDLOOP(SPECIAL)
+$$LOOP(HUTCH)
+file archive_record.tpl-arch
+{
+    pattern { RECORD                 }
+            { $$PV    }
+}
+$$ENDLOOP(HUTCH)

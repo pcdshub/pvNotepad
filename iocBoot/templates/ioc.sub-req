@@ -152,3 +152,11 @@ file autosave_record.tpl-req
             { $$PV    }
 }
 $$ENDLOOP(SPECIAL)
+
+$$LOOP(HUTCH)
+file autosave_record.tpl-req
+{
+    pattern { RECORD       }
+            { $$PV    }
+}
+$$ENDLOOP(HUTCH)
