@@ -3,24 +3,24 @@ file waveform.template
 {
 
     pattern { RECORD                , NELM }
-            { $(HUTCH):NOTE:ARRAY:01,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:02,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:03,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:04,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:05,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:06,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:07,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:08,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:09,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:10,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:11,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:12,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:13,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:14,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:15,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:16,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:17,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:18,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:19,$(NELM) }
-            { $(HUTCH):NOTE:ARRAY:20,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:01,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:02,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:03,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:04,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:05,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:06,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:07,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:08,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:09,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:10,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:11,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:12,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:13,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:14,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:15,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:16,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:17,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:18,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:19,$(NELM) }
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:20,$(NELM) }
 } 

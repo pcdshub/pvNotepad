@@ -13,13 +13,6 @@ include $(TOP)/configure/CONFIG
 DB_INSTALLS += $(IOCADMIN)/db/iocSoft.db
 DB_INSTALLS += $(AUTOSAVE)/db/save_restoreStatus.db
 
-#DB += pvNotepad.db
-DB += ao_1.db
-DB += ao_10.db
-DB += ao_20.db
-DB += longout_1.db
-DB += longout_10.db
-DB += longout_20.db
 DB += array_1.db
 DB += array_10.db
 DB += array_20.db

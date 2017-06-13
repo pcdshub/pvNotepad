@@ -1,8 +1,23 @@
-Notepad app/IOC for hutches.  Author = Scott Stubbs (sstubbs)  Date = 10/29/2014
+Notepad IOC for hutches.  Author = Scott Stubbs (sstubbs)  Date = 10/29/2014
+Revised: 6/13/2017
 
-Customizable, can choose between 1, 10, or 20 of ao (double), long, or waveform (array) standard named records and can choose element size of array records. (Also binary + stringin customs - see below)
+Two methods of operation:
+
+1)Create custom record names with the choices of ao (double), long, waveform (array), bi (binary) or stringin, but must be created on individual lines in the cfg file.
+NOTE: For custom waveform records array size and field type *MUST* be specified in cfg file.  For example:
+SPECIAL(PV=AMO:CB:TEST,RECTYPE=waveform,NELM=600,FTYPE=DOUBLE)
+
+2)'Standard' naming method, only for waveform (array) records - can choose between 1, 10, or 20 records of a generic naming convention.
+Can choose element size of array records with 'NELM' macro.
+'IDENTIFIER' macro needed if you have multiple pvNotepad IOCs in a single hutch with standard record types, defaults to '01'.
 For standard waveform records element number and field type can be specified, or will default to 500 and DOUBLE.
 
-Can also create custom record names with the choices of the above record types as well as bi (binary) or stringin, but must be created on individual lines in the cfg file.
-NOTE: For custom waveform records array size and field type *MUST* be specified.  For example:
-SPECIAL(PV=AMO:CB:TEST,RECTYPE=waveform,NELM=600,FTYPE=DOUBLE)
+Standard PV names follow:
+$(HUTCH):NOTE:$(IDENTIFIER):ARRAY:01
+$(HUTCH):NOTE:$(IDENTIFIER):ARRAY:02
+etc.
+
+Revisions:
+7/11/2016 (mcbrowne) Added hutch.db which contains mbbi record to denote hutch.
+
+6/13/2017 (sstubbs) Removed standard longout and ao types, as nobody seemed to be using them. Added 'IDENTIFIER' macro.

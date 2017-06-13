@@ -2,5 +2,5 @@
 file waveform.template
 {
     pattern { RECORD                ,NELM}
-            { $(HUTCH):NOTE:ARRAY:01,$(NELM)}
+            { $(HUTCH):NOTE:$(IDENTIFIER):ARRAY:01,$(NELM)}
 }

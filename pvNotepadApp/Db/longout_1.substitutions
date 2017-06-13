@@ -1,6 +1,0 @@
-#Substitution file for single record
-file longout.template
-{
-     pattern { RECORD           }
-             { $(HUTCH):NOTE:LONG:01 }
-}

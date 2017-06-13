@@ -1,7 +1,0 @@
-#Substitutions for single substitution
-file ao.template
-{
-    pattern { RECORD             }
-            { $(HUTCH):NOTE:DOUBLE:01      }
-}
-
