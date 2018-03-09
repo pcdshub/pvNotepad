@@ -15,7 +15,7 @@ DBD += pvNotepad.dbd
 # pvNotepad.dbd will be made up from these files:
 pvNotepad_DBD += base.dbd
 pvNotepad_DBD += iocAdmin.dbd
-pvNotepad_DBD += autosaveSupport.dbd
+pvNotepad_DBD += asSupport.dbd
 
 # <name>_registerRecordDeviceDriver.cpp will be created from <name>.dbd
 pvNotepad_SRCS += pvNotepad_registerRecordDeviceDriver.cpp
