@@ -22,8 +22,6 @@ DB += hutch.db
 # Create and install (or just install)
 # Archive files, templates, substitutions like this
 
-#ARCHIVE_INSTALLS += pvNotepad-addons.archive
-
 ARCHIVE += archive_record.tpl-arch
 
 #----------------------------------------------------
