@@ -1,7 +1,7 @@
 record($(RECTYPE),	"$(PV)") {
 	field(NELM,	"$(NELM)")
 	field(FTVL,	"$(FTYPE)")
-	field(DESC,	"Description")
+	field(DESC,	"$(DESC)")
 	field(INP,	"$(INP)")
 	field(PREC,	"$(PREC)")
 	field(EGU,	"$(EGU)")

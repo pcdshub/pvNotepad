@@ -1,4 +1,6 @@
 record(ao, "$(RECORD)") {
   field(DESC, "$(DESC)")
+  field(EGU, "$(EGU)")
+  field(PREC, "$(PREC)")
 }
 

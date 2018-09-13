@@ -33,8 +33,9 @@ dbLoadRecords("$(TOP)/db/hutch.db",    "PV=$$PV")
 $$ENDLOOP(HUTCH)
 
 $$LOOP(SPECIAL)
-dbLoadRecords("$(TOP)/db/specials.db",     "PV=$$PV,RECTYPE=$$RECTYPE,$$IF(NELM,NELM=$$NELM,),$$IF(FTYPE,FTYPE=$$FTYPE,),$$IF(EGU,EGU=$$EGU,),$$IF(PREC,PREC=$$PREC,),$$IF(INP,INP=$$INP,)")
+dbLoadRecords("$(TOP)/db/specials.db",     "PV=$$PV,RECTYPE=$$RECTYPE$$IF(NELM),NELM=$$NELM$$ENDIF(NELM)$$IF(FTYPE),FTYPE=$$FTYPE$$ENDIF(FTYPE)$$IF(EGU),EGU=$$EGU$$ENDIF(EGU)$$IF(PREC),PREC=$$PREC$$ENDIF(PREC)$$IF(DESC),DESC=$$DESC$$ENDIF(DESC)$$IF(INP),INP=$$INP$$ENDIF(INP)")
 $$ENDLOOP(SPECIAL)
+
 # Setup autosave
 save_restoreSet_status_prefix("$(EPICS_NAME):" )
 save_restoreSet_IncompleteSetsOk( 1 )
