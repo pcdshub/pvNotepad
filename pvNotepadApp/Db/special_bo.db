@@ -1,0 +1,8 @@
+record(bo,	"$(PV)") {
+	field(DESC,      "$(DESC=)")
+	field(DTYP,      "$(DTYP=Soft Channel)")
+	field(SCAN,      "$(SCAN=Passive)")
+	field(PINI,      "$(PINI=NO)")
+	field(ZNAM,      "$(ZNAM=Off)")
+	field(ONAM,      "$(ONAM=On)")
+}

@@ -1,0 +1,6 @@
+record(stringin,	"$(PV)") {
+	field(DESC,      "$(DESC=)")
+	field(DTYP,      "$(DTYP=Soft Channel)")
+	field(SCAN,      "$(SCAN=Passive)")
+	field(PINI,      "$(PINI=NO)")
+}

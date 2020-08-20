@@ -1,0 +1,8 @@
+record(longout,	"$(PV)") {
+	field(DESC,      "$(DESC=)")
+	field(DTYP,      "$(DTYP=Soft Channel)")
+	field(SCAN,      "$(SCAN=Passive)")
+	field(PINI,      "$(PINI=NO)")
+	field(OUT,       "$(OUT=)")
+	field(EGU,       "$(EGU=)")
+}

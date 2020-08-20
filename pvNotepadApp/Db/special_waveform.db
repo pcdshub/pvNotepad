@@ -1,0 +1,12 @@
+record(waveform,	"$(PV)") {
+	field(DESC,      "$(DESC=)")
+	field(DTYP,      "$(DTYP=Soft Channel)")
+	field(SCAN,      "$(SCAN=Passive)")
+	field(PINI,      "$(PINI=NO)")
+	field(PREC,      "$(PREC=3)")
+	field(NELM,      "$(NELM=1)")
+	field(NORD,      "$(NORD=1)")
+	field(EGU,       "$(EGU=)")
+ 	field(INP,       "$(INP=0)")
+	field(FTVL,      "$(FTVL=LONG)")
+}

@@ -16,7 +16,8 @@ DB_INSTALLS += $(AUTOSAVE)/db/save_restoreStatus.db
 DB += array_1.db
 DB += array_10.db
 DB += array_20.db
-DB += specials.db
+DB += special_ao.db special_bo.db special_longout.db special_waveform.db special_stringin.db
+DB += special_mbbo.db
 DB += hutch.db
 #----------------------------------------------------
 # Create and install (or just install)
