@@ -8,5 +8,5 @@ record(waveform,	"$(PV)") {
 	field(NORD,      "$(NORD=1)")
 	field(EGU,       "$(EGU=)")
  	field(INP,       "$(INP=0)")
-	field(FTVL,      "$(FTVL=LONG)")
+	field(FTVL,      "$(FTYPE=LONG)")
 }
