@@ -1,0 +1,8 @@
+record(waveform, "$(PV)") {
+  field(INP, "$(INP)")
+  field(NELM, "$(NELM)")
+  field(FTVL, "$(FTYPE)")
+  field(DESC, "$(DESC)")
+  field(EGU, "$(EGU)")
+  field(PREC, "$(PREC)")
+ }
