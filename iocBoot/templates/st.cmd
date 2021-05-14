@@ -1,4 +1,4 @@
-#!$$IOCTOP/bin/linux-x86_64/pvNotepad
+#!$$IOCTOP/bin/$$IF(ARCH,$$ARCH,linux-x86_64)/pvNotepad
 
 epicsEnvSet( "EPICS_NAME", "$$TRANSLATE(IOCNAME,"a-z_-","A-Z::")" )
 epicsEnvSet( "ENGINEER",  "$$ENGINEER" )
