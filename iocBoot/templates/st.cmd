@@ -4,6 +4,10 @@ epicsEnvSet( "EPICS_NAME", "$$TRANSLATE(IOCNAME,"a-z_-","A-Z::")" )
 epicsEnvSet( "ENGINEER",  "$$ENGINEER" )
 epicsEnvSet( "LOCATION",  "$$LOCATION" )
 epicsEnvSet( "IOCSH_PS1", "$$IOCNAME> ")
+epicsEnvSet( "IOCTOP",       "$$IOCTOP" )
+epicsEnvSet( "BUILD_TOP",    "$$TOP" )
+epicsEnvSet( "EPICS_PVA_AUTO_ADDR_LIST",         "TRUE" )
+epicsEnvSet( "EPICS_PVAS_AUTO_BEACON_ADDR_LIST", "TRUE" )
 
 < envPaths
 

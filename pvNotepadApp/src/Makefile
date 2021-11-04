@@ -14,6 +14,8 @@ DBD += pvNotepad.dbd
 
 # pvNotepad.dbd will be made up from these files:
 pvNotepad_DBD += base.dbd
+pvNotepad_DBD += PVAServerRegister.dbd
+pvNotepad_DBD += qsrv.dbd
 pvNotepad_DBD += iocAdmin.dbd
 pvNotepad_DBD += asSupport.dbd
 
@@ -22,6 +24,9 @@ pvNotepad_SRCS += pvNotepad_registerRecordDeviceDriver.cpp
 pvNotepad_SRCS_DEFAULT += pvNotepadMain.cpp
 
 # Add locally compiled object code
+
+PROD_LIBS += qsrv
+PROD_LIBS += $(EPICS_BASE_PVA_CORE_LIBS)
 
 pvNotepad_LIBS += devIocStats
 pvNotepad_LIBS += autosave
